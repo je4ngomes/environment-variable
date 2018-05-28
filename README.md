@@ -1,8 +1,8 @@
-ENV - Environment Variable
+# ENV - Environment Variable
 
 Simple way to parse and load .env files for node.js
 
-Usage
+## Usage
 
 Create a .env file in the root of your project. For exemplo:
 
@@ -13,7 +13,7 @@ DB_USER=test
 DB_PASS=123456
 ```
 
-##In your code
+## In your code
 
 ```javascript
 require('./path-to-env.js').config(__dirname + './path-to-your/.env');
