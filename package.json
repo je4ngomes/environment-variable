@@ -1,0 +1,16 @@
+{
+  "name": "env",
+  "version": "1.0.0",
+  "description": "Simple way to parse and load .env files for node.js",
+  "main": "env.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^23.0.1",
+    "mocha": "^5.2.0"
+  }
+}
