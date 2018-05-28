@@ -1,8 +1,8 @@
-#ENV - Environment Variable
+ENV - Environment Variable
 
 Simple way to parse and load .env files for node.js
 
-##Usage
+Usage
 
 Create a .env file in the root of your project. For exemplo:
 
