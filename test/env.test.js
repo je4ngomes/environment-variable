@@ -1,7 +1,7 @@
 const expect = require('expect');
 
 describe('ENV', () => {
-    it('should load all variables in .env file', () => {
+    it('should load all variables from .env file', () => {
         require('../lib').config(__dirname + '/.env');
 
         expect(process.env.PORT).toBe('3000');
