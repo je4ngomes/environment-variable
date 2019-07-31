@@ -2,7 +2,7 @@
 
 ## Usage
 
-Create a .env file in the root of your project. For exemple:
+Create a .env file in the root of your project. For example:
 
 ```
 PORT=3000
